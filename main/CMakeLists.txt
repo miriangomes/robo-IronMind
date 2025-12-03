@@ -3,6 +3,7 @@ idf_component_register(SRCS "main.c"
                     REQUIRES
                         esp_driver_gpio
                         esp_driver_ledc
+                        esp_adc          
                         freertos
                         esp_hw_support
                         spi_flash
